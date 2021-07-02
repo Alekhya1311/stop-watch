@@ -47,7 +47,7 @@ class Stopwatch extends Component {
   }
 
   render() {
-    const {timeView} = `${this.getMin()}:${this.getSec()}`
+    const timeView = `${this.getMin()}:${this.getSec()}`
     return (
       <div className="bg">
         <h1 className="heading">Stopwatch</h1>
