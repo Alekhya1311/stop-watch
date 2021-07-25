@@ -1,0 +1,118 @@
+/* Write CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  max-height: 768px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.heading {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
+
+.para {
+  color: #333333;
+  font-size: 20px;
+}
+
+.time {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button1 {
+  width: 100px;
+  border-width: 0px;
+  color: white;
+  font-weight: 600;
+  background-color: #1db05f;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button2 {
+  width: 100px;
+  border-width: 0px;
+  color: white;
+  font-weight: 600;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button3 {
+  width: 100px;
+  border-width: 0px;
+  color: white;
+  font-weight: 600;
+  background-color: #eaa800;
+  border-radius: 5px;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
